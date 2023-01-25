@@ -8,6 +8,6 @@ import { Header } from './Header';
 
 test('renders header', () => {
   const { getByText } = render(<Header />);
-  const linkElement = getByText(/Lerna/i);
+  const linkElement = getByText(/Header/i);
   expect(linkElement).toBeDefined();
 });
